@@ -1,36 +1,10 @@
 pipeline {
-   agent any {
-stages {
-  stage ('stage-1'){
-	steps{
-	"mkdir ganpati"
-}
-
-}
-
-}
-
-
-
-}       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	agent any
+	stages{
+		stage('stage-1'){
+			steps{
+				"mkdir ganpatibppa"
+			}
+		}
+	}
 }
